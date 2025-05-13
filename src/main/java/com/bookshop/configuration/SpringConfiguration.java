@@ -18,9 +18,9 @@ public class SpringConfiguration {
     public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver"); // mặc định với mysql
-        dataSource.setUrl("jdbc:mysql://localhost:3306/bookshop"); // địa chỉ ip, port và schema của mysql , mặc định bắt đầu là "jdbc:mysql://"
+        dataSource.setUrl("jdbc:mysql://localhost:3306/shop_book"); // địa chỉ ip, port và schema của mysql , mặc định bắt đầu là "jdbc:mysql://"
         dataSource.setUsername("root");
-        dataSource.setPassword("Anhquoc05");
+        dataSource.setPassword("anhquoc05");
         return dataSource;
     }
 

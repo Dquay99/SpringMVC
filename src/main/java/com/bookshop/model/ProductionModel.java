@@ -6,7 +6,7 @@ public class ProductionModel {
     private String title;
     private String author;
     private String description;
-    private int price;
+    private float price;
 
     public int getId() {
         return id;
@@ -24,7 +24,7 @@ public class ProductionModel {
         return description;
     }
 
-    public int getPrice() {
+    public float getPrice() {
         return price;
     }
 
@@ -44,11 +44,11 @@ public class ProductionModel {
         this.description = description;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(float price) {
         this.price = price;
     }
 
-    public ProductionModel(int id, String title, String author, String description, int price) {
+    public ProductionModel(int id, String title, String author, String description, float price) {
         this.id = id;
         this.title = title;
         this.author = author;

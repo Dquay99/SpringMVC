@@ -27,11 +27,11 @@ public class ProductionRepository {
             @Override
             public ProductionModel mapRow(ResultSet rs, int rowNum) throws SQLException {
                 ProductionModel productionModel = new ProductionModel();
-                productionModel.setId(rs.getInt("id"));
+                productionModel.setId(rs.getInt("idproduction"));
                 productionModel.setTitle(rs.getString("title"));
                 productionModel.setDescription(rs.getString("description"));
                 productionModel.setAuthor(rs.getString("author"));
-                productionModel.setPrice(rs.getInt("price"));
+                productionModel.setPrice(rs.getFloat("price"));
 
                 return productionModel;
             }
