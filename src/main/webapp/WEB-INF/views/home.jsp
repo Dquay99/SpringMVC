@@ -7,7 +7,7 @@
 --%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> <%-- toàn bộ tính năng phải bắt đầu từ prefix --%>
 
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %> <%--    --%>
 <html>
 <head>
     <title>Title</title>
